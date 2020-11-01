@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Grid Suite]" parallel="classes">
+  <test thread-count="3" verbose="0" name="Test Basics 1(failed)" parallel="classes">
+    <classes>
+      <class name="com_hackathon_test.HotelBooking">
+        <methods>
+          <include name="endReport"/>
+          <include name="TestScenarioThree"/>
+        </methods>
+      </class> <!-- com_hackathon_test.HotelBooking -->
+      <class name="com_hackathon_test.CabStationTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="testScenarioOne" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- com_hackathon_test.CabStationTest -->
+      <class name="com_hackathon_test.GroupGifting">
+        <methods>
+          <include name="endReport"/>
+          <include name="testScenarioTwo" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+        </methods>
+      </class> <!-- com_hackathon_test.GroupGifting -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Grid Suite] -->

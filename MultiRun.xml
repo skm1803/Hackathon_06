@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid Suite" parallel="classes" thread-count="3">
+  <test name="Test Basics 1">
+      <classes>
+       <class name="com_hackathon_test.CabStationTest"/>
+       <class name="com_hackathon_test.GroupGifting"/>
+       <class name="com_hackathon_test.HotelBooking"/>
+      </classes>
+      
+      
+  </test> <!-- Test --> 
+   
+  
+</suite> <!-- Suite -->

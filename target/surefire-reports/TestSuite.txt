@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 14.864 s <<< FAILURE! - in TestSuite
+com_hackathon_test.HotelBooking.TestScenarioThree  Time elapsed: 3.028 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.HotelBooking.TestScenarioThree(HotelBooking.java:19)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[1000, 6, john gopes, john@gmail.com, 1231231231, Suezeka nohara, sugdfgdf.com, sugdfgdf.com, 8909876780](1)  Time elapsed: 3.03 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Delhi, Manali, 23/12/2020, 17](1)  Time elapsed: 3.03 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Mumbai, Goa, 23/12/2020, 5](2)  Time elapsed: 1.037 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[3000, 4, Shivani Sinha, abc@gmail.com, 6786781231, Nobita ghosh, .com, sugdfgdf.com, 8909812380](2)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Nagpur, Pune, 22/12/2020, 7](3)  Time elapsed: 1.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[4000, 10, Kizzi basu, kaz@gmail.com, 4343231231, Dorera Hasina, gh@g.com, ab, 8909876780](3)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[5000, 5, james Christopher Loius, jamen@gmail.com, 9997876761, Eleana Criuise, eele, e@g.com, 8909876780](4)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Kolkata, Durgapur, 22/11/2020, 8](4)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Chennai, Coimbatore, 3/12/2020, 18](5)  Time elapsed: 1.019 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[2000, 2, Mexi Columbus, max@gmail.com, 9831231231, Malica jenry, ..com, asgfjom, 0](5)  Time elapsed: 1.019 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Kerala, Coimbatore, 27/12/2020, 3](6)  Time elapsed: 1.019 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[1000, 6, Brownn gopes, gopes@gmail.com, 9931231231, Yuzeka nohara, dfgdf.com, s, 8909876780](6)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[1000, 6, john gopes, john@gmail.com, 1231231231, Suezeka nohara, sugdfgdf.com, sugdfgdf.com, 8909876780](7)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Delhi, Haryana, 2/1/2021, 9](7)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[1000, 6, john gopes, john@gmail.com, 1231231231, Suezeka nohara, sugdfgdf.com, sugdfgdf.com, 8909876780](8)  Time elapsed: 1.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Kodaikanal, Chennai, 23/12/2020, 9](8)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.CabStationTest.testScenarioOne[Kolkata, Delhi, 4/11/2020, 8](9)  Time elapsed: 1.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.CabStationTest.testScenarioOne(CabStationTest.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[2000, 6, Drohny gopes, dnhn@gmail.com, 2031231231, Hazeka Kafin, sugd, om, 8909876780](9)  Time elapsed: 1.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+
+com_hackathon_test.GroupGifting.testScenarioTwo[1000, 2, Nancy gopes, nan@gmail.com, 9090231231, Priya sinha, yahoo, yahoo, 8909876780](10)  Time elapsed: 1.016 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com_hackathon_test.GroupGifting.testScenarioTwo(GroupGifting.java:20)
+

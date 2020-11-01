@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Multiple Test Suites]" parallel="methods">
+  <test thread-count="3" verbose="0" name="Test Node1(failed)" parallel="methods">
+    <classes>
+      <class name="com_hackathon_test.CabStationTest">
+        <methods>
+          <include name="testScenarioTwo" invocation-numbers="2 3"/>
+          <include name="endReport"/>
+          <include name="testScenarioOne" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com_hackathon_test.CabStationTest -->
+    </classes>
+  </test> <!-- Test Node1(failed) -->
+</suite> <!-- Failed suite [Multiple Test Suites] -->
